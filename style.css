@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    /* background: url(https://wallpaperaccess.com/full/2089149.jpg); */
+}
+
+@media screen and (max-width:600px) {
+    body {
+        width:300px;
+        height:640px;
+    }
+    
+    #div1 {
+        width:50px;
+        height:50px;
+    }
+}
+
+
+#div1 {
+width:1520px;
+height:100px;
+margin: 0;
+background-color: rgba(192, 197, 118, 0.822);
+/* background: url(https://weeattogether.com/wp-content/uploads/2019/07/MaiTai-On-Dark-And-Stormy-Food-Photography-Backdrop-HORZ.jpg); */
+border: 2px solid black;
+/* background: url(https://wallpaperaccess.com/full/2089149.jpg); */
+background: url(https://i.pinimg.com/originals/9e/56/7e/9e567e365531068aff784cdcba90613a.jpg);
+}
+
+
+#logo {
+    color: white;
+    font-family: Cursive;
+    padding: 20px;
+    display: inline-block;
+    margin: 0%;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px grey;
+}
+
+#div2left {
+    width:1300px;
+    height:900px;
+    background-color:rgba(192, 197, 118, 0.897);
+    display: inline-block; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     /* margin-top: 20px; */
+    padding-top: 35px;
+    padding-bottom: 20px; 
+    padding-left: 30px;
+    align-self: center;
+    justify-content: space-around;
+    /* align-content: center; */
+    /* background: url(https://wallpaperaccess.com/full/2089149.jpg); */
+    background: url(https://i.pinimg.com/originals/9e/56/7e/9e567e365531068aff784cdcba90613a.jpg);
+    /* filter: blur(4px); */
+    
+}
+
+
+
+#div3middle {
+    width:516px;
+    height:700px;
+    background-color: rgb(25, 160, 37);
+    /* display: inline-block; */
+}
+
+#div4right {
+    width:219px;
+    height:900px;
+    background-color: rgb(155, 141, 20);
+    /* display: inline-block; */
+    background: url(https://wallpaperaccess.com/full/2089149.jpg);
+    /* background: url(https://i.pinimg.com/originals/9e/56/7e/9e567e365531068aff784cdcba90613a.jpg); */
+   /* background:url( https://i.pinimg.com/736x/16/60/b9/1660b9cdfcb893baefea9c1ffb1975fc.jpg ); */
+}
+
+#div5 {
+    width:1520px;
+    height:300px;
+    background-color: crimson;
+    background: url(https://wallpaperaccess.com/full/2089149.jpg);
+    /* background: url(https://i.pinimg.com/originals/9e/56/7e/9e567e365531068aff784cdcba90613a.jpg); */
+}
+#container {
+    display:inline-flex;
+}
+
+/* .container2 {
+    display: flex;
+  height: 200px;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  align-self: center;
+  justify-content: space-around;
+} */
+
+.link1 {
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+
+}
+
+.link1:hover {
+    color: rgb(253, 253, 253);
+    /* background: tomato; */
+}
+
+.link5 {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding:6px;
+}
+.link5:hover {
+    color: black;
+}
+
+.button {
+    border-radius: 7px;
+    /* background-color: rgba(194, 76, 55, 0.74); */
+    padding-right: 15px;
+    margin-right: 10px;
+   background:rgba(247, 247, 245, 0.747);
+   color:black;
+    
+    
+}
+.button:hover {
+background: tomato;
+}
+
+
+.button1 {
+    padding-left: 10px;
+    background-color: rgba(5, 163, 18, 0.541);
+    margin-left:30px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+#search {
+    float: right;
+    /* margin-top: 10px;*/
+    margin-right: 80px; 
+    width:300px;
+    margin: 0;
+    transform:translateY(+100%);
+    /* transform:translateX(-10%) ; */
+    /* border-radius: 10px; */
+    padding-right: 30px;
+}
+
+#loginbutton {
+    padding-right: 20px;
+    margin-right: 30px;
+    background: yellowgreen;
+}
+
+.btn btn-primary {
+    text-overflow: ellipsis;
+}
+
+.card {
+    height:400px;
+    width:200px;
+}
+
+.new {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.para {
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    font-style:italic;
+    color:white;
+}
+
+.media {
+    background:#1877f2;
+    color: white;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+.media2 {
+    background:#f21835;
+    color: rgb(253, 253, 253);
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+.media3 {
+    background:#1ab15e;
+    color: white;
+    border-radius: 9px;
+}
+
+.summarylist {
+    color: blanchedalmond;
+}
